@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "spearboost",
+  "version": "${version}",
+  "name": "Spear Boost",
+  "description": "Spears enchanted with Lunge cost no durability and no hunger/exhaustion. Server-side only -- clients do not need to install it.",
+  "authors": [
+    "tsar"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "spearboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

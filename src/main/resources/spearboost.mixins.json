@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tsar.spearboost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NoLungeDurabilityMixin",
+    "NoLungeHungerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
